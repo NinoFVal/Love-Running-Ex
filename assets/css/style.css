@@ -219,7 +219,7 @@ hr {
 
 /* footer */
 
-fotter {
+footer {
   height: 100px;
 }
 
@@ -231,9 +231,20 @@ fotter {
   display: inline;
 }
 
-.social-networks {
+.social-networks i {
   font-size: 160%;
   margin: 1%;
   padding: 5%;
   color: #3a3a3a;
+}
+
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#photos > img {
+  width: 100%;
 }
